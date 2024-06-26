@@ -6,7 +6,10 @@ function App() {
 
   return (
     <>
-    lms Frontend
+      <h1 className='bg-green-400'>
+        lms Frontend
+      </h1>
+        
     </>
   )
 }
