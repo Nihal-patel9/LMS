@@ -1,4 +1,4 @@
-
+import { Routes } from 'react-router-dom'
 import './App.css'
 
 function App() {
@@ -6,9 +6,10 @@ function App() {
 
   return (
     <>
-      <h1 className='bg-green-400'>
-        lms Frontend
-      </h1>
+      <Routes>
+        { /* <Route path="/" element={<Home />} > </Route> */}
+
+      </Routes>
         
     </>
   )
